@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+tensorflow
+matplotlib
+seaborn
+umap-learn
+torch
+pytorch-lightning
+altair
+openTSNE
+torchaudio
+torchvision
