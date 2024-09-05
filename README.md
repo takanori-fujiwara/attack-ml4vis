@@ -3,7 +3,7 @@
 About
 -----
 
-* Source code used to perform adversarial attack examples in **Adversarial Attacks on Machine Learning-Aided Visualizations**, Takanori Fujiwara, Kostiantyn Kucher, Junpeng Wang, Rafael M. Martins, Andreas Kerren, and Anders Ynnerman.
+* Source code used to perform adversarial attack examples in **[Adversarial Attacks on Machine Learning-Aided Visualizations](https://arxiv.org/abs/2409.02485)**, Takanori Fujiwara, Kostiantyn Kucher, Junpeng Wang, Rafael M. Martins, Andreas Kerren, and Anders Ynnerman.
 Journal of Visualization (forthcoming).
 
 * Links:
