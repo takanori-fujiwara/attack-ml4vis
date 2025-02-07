@@ -4,7 +4,7 @@ About
 -----
 
 * Source code used to perform adversarial attack examples in **[Adversarial Attacks on Machine Learning-Aided Visualizations](https://doi.org/10.1007/s12650-024-01029-2)**, Takanori Fujiwara, Kostiantyn Kucher, Junpeng Wang, Rafael M. Martins, Andreas Kerren, and Anders Ynnerman.
-Journal of Visualization, 204.
+Journal of Visualization, 2024.
 
 ******
 
@@ -23,7 +23,7 @@ Setup
 -----
 
 ### Requirements
-* Python3 (latest)
+* Python3 (< 3.13: tensorflow does not support 3.13 yet)
 * Note: Tested on macOS Sonoma.
 
 ### Setup
