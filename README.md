@@ -4,7 +4,7 @@ About
 -----
 
 * Source code used to perform adversarial attack examples in **[Adversarial Attacks on Machine Learning-Aided Visualizations](https://doi.org/10.1007/s12650-024-01029-2)**, Takanori Fujiwara, Kostiantyn Kucher, Junpeng Wang, Rafael M. Martins, Andreas Kerren, and Anders Ynnerman.
-Journal of Visualization, 2024.
+Journal of Visualization, vol. 28, pp. 133–151, 2025.
 
 ******
 
@@ -24,7 +24,7 @@ Setup
 
 ### Requirements
 * Python3 (< 3.13: tensorflow does not support 3.13 yet)
-* Note: Tested on macOS Sonoma.
+* Note: Tested on macOS Sequoia.
 
 ### Setup
 
@@ -32,7 +32,12 @@ Setup
     
 * For attacks on parametric t-SNE:
 
-    - Download the Parametric-DR repository https://github.com/a07458666/parametric_dr and locate 'parametric_dr' directory containing 'tsne_nn.py' in this directory.
+    - Download the Parametric-DR repository https://github.com/a07458666/parametric_dr and copy `parametric_dr` directory that includes `tsne_nn.py` ti this `attack-ml4vis` directory.
+      - `tsne_nn.py` implementation (as of April 19, 2025) doesn't work well with currently available pytorch versions.  To address this issue, 
+      
+        replace `idx = idxs[i:i+batch_size]` (line 87) 
+        
+        with `idx = idxs[i:i+batch_size].numpy()` 
 
 
 ### How to run
@@ -45,4 +50,4 @@ Setup
 How to cite
 -----
 
-Takanori Fujiwara, Kostiantyn Kucher, Junpeng Wang, Rafael M. Martins, Andreas Kerren, and Anders Ynnerman, "Adversarial Attacks on Machine Learning-Aided Visualization." Journal of Visualization, 2024.
+Takanori Fujiwara, Kostiantyn Kucher, Junpeng Wang, Rafael M. Martins, Andreas Kerren, and Anders Ynnerman, "Adversarial Attacks on Machine Learning-Aided Visualization." Journal of Visualization, vol. 28, pp. 133–151, 2025.
